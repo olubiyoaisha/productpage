@@ -1,69 +1,10 @@
-/*----Google fonts*/
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-
-:root {
-  
-
-  /*------- Colors --------*/
-  /* --first-color: #be95c4;
-  --text-color: #be95c4;
-
-  /*------ Font and typography -------*/
-  /* --body-font: 'Montserrat', sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem; */
-
-  /*-----------Font weight -----------*/
-  /* --font-medium: 500;
-  --font-semi-bold: 600; */
-
-  /*---------Margins --------*/
-  /* --mb-1: .5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
-  --mb-4: 2rem;
-  --mb-5: 2.5rem;
-  --mb-6: 3rem; */
-
-  /*-------z index -------*/
-  /* --z-tooltip: 10;
-  --z-fixed: 100;
-} */
-
-/* h1{
-    color: var(--first-color);
-
-}
-body{
-  margin: var(--header-height) 0 0 0;
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
-  line-height: 1.6
-
-}
-
-nav{
-    height: 100px;
-    border-top: solid var(--first-color);
-     */
-
-/* }
- */ 
 body  {
     margin: 0;
     padding: 0;
     font-family: 'Cormorant Garamond', sans-serif;
-    background-color: #c9adc6;
-    color: #5f4d5d;
+    background-color:#005566;
+    color:  #e36414 ;
     font-size: 24px;
     line-height: 30px;
 }
@@ -74,24 +15,21 @@ ul li {
 
 nav {
     background-color: #fff;
-    color: #5f4d5d;
+    
 }
 
 .text-purple {
-    color: #5f4d5d;
+    color:  #e36414;
 }
 
 .text-grey {
     color: #b0b0b0;
 }
 
-.logo {
-    width: 60%;
-}
 
 .carousel-caption {
     position: relative;
-    background-color: #b08ead;
+    background-color:#ed7f09;
     bottom: 300px;
     right: -200px;
     height: 200px;
@@ -101,7 +39,7 @@ nav {
     position: absolute; 
     top: 50px;
     right: 0;
-    background: #b08ead;
+    background: #e36414;
     color: #f1f1f1;
   }
 
@@ -112,16 +50,16 @@ nav {
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     bottom: 50px;
-    background-color: #b08ead;
+    background-color: #b33404;
 }
 
 .card {
     border: none;
 }
 
-.card-body {
+/* .card-body {
     background-color: #b08ead;
-    color: #fff;
+    color: #fff; */
 }
 
 .link-light {
@@ -145,7 +83,7 @@ nav {
     position: absolute; 
     top: 50px;
     left: 0;
-    background: #b08ead;
+    background: ;
     color: #f1f1f1;
   }
   
@@ -170,16 +108,24 @@ input {
     margin: 0 auto;
 }
 
+
 .icon {
     width: 50px;
     height: 50px;
-    background-color: #d6bbd3;
+    background-color:  #e36414;
 }
 
 .fab, .fas, .far {
-    color: #fff;
+    color:#fff ;
 }
 
 .fas, .far {
     font-size: 35px;
 }
+
+/* .career{
+  border-color: #008e98;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;  
+} */
